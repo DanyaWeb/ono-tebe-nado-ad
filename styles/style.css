@@ -11,7 +11,6 @@
 .header_menu {
   display: flex;
   justify-self: center;
-
 }
 
 .menu_links {
@@ -24,12 +23,12 @@
 .link_list {
   font-size: 18px;
   font-weight: 400;
-  text-underline-offset: 4px; 
+  text-underline-offset: 4px;
   text-decoration: underline;
 }
 
 .main_link_marker {
-  list-style-type: none; 
+  list-style-type: none;
   text-decoration: none;
 }
 
@@ -49,9 +48,8 @@
   letter-spacing: 0.18px;
   font-family: "Raleway", sans-serif;
   list-style-type: none;
-  font-style: normal;  
+  font-style: normal;
 }
-
 
 .cover {
   position: relative;
@@ -61,7 +59,7 @@
   text-transform: uppercase;
   z-index: 0;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
 
 .overlay {
@@ -76,23 +74,24 @@
   z-index: -1;
 }
 
-.cover_title { 
+.cover_title {
   position: relative;
   display: flex;
   flex-direction: column;
   padding: 165px 50px 147px;
-  gap: 20px;   
-} 
- 
-.cover_title span { 
-  font-size: 100px; 
-  font-weight: 700;  
-  line-height: 100%;  
+  gap: 20px;
+}
+
+.cover_title span {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100%;
 }
 
 .text_cover {
   display: block;
   line-height: 125px;
+  letter-spacing: 30px;
 }
 
 .text_center {
@@ -102,11 +101,7 @@
 
 .text_right {
   text-align: right;
-  line-height: 120px;  
-}
-
-.text_cover { 
-  letter-spacing: 30px; 
+  line-height: 120px;
 }
 
 .text_cover .no_letter_spacing {
@@ -114,7 +109,7 @@
 }
 
 .text_cover .letter_spacing {
-  letter-spacing: 60px; 
+  letter-spacing: 60px;
 }
 
 .cover_description {
@@ -160,14 +155,14 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 25px;
-  justify-content: flex-start; 
-  padding: 0; 
+  justify-content: flex-start;
+  padding: 0;
   margin: 0 auto;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
-.card_lots a { 
-  text-decoration: none; 
+.card_lots a {
+  text-decoration: none;
 }
 
 .card_lots {
@@ -210,15 +205,16 @@
   text-transform: uppercase;
 }
 
-.link_lots { 
+.link_lots {
   text-decoration: none;
 }
+
 .text_on_card {
   color: white;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; 
+  line-height: 120%;
 }
 
 .view_more {
@@ -300,7 +296,7 @@
 
 .footer_address {
   font-style: normal;
-  padding-left: 0px; 
+  padding-left: 0px;
 }
 
 .footer_menu {
